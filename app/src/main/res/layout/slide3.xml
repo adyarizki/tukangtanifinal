@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pager">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/atur"
+        />
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/traveler"
+        android:layout_marginTop="120sp"
+        android:layout_alignTop="@+id/atur"
+        android:id="@+id/imgslide3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets See"
+        android:textSize="23dp"
+        android:textFontWeight="400sp"
+        android:textColor="@color/colorJudul"
+        android:layout_centerInParent="true"
+        android:layout_alignTop="@+id/imgslide3"
+        android:layout_marginTop="260dp"
+        android:id="@+id/judul3"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="135dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginRight="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="pindah"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tesdna"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-28dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/line"/>
+
+</RelativeLayout>

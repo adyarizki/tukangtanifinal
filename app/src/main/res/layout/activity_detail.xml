@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+    <EditText
+        android:id="@+id/etNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_below="@id/etNim"
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_below="@id/etNama"
+        android:id="@+id/etKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_below="@id/etKelas"
+        android:id="@+id/etTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telepon"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_below="@id/etTelepon"
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_below="@id/etEmail"
+        android:id="@+id/etSosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sosmed"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:layout_below="@id/etSosmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perbarui"
+            android:layout_margin="7dp"
+            android:background="@drawable/buttonstyle"/>
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            android:layout_margin="7dp"
+            android:background="@drawable/buttonstyle"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_margin="7dp"
+            android:background="@drawable/buttonstyle"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorcampuran">#FF9800</color>
+    <color name="Pager">#FFC107</color>
+    <color name="colorgra">#FFEB3B</color>
+    <color name="colorsign">#FFE0B2</color>
+    <color name="colorJudul">#201e1e</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="primarytext">#212121</color>
+    <color name="secondarytext">#757575</color>
+    <color name="colorpenjelasan">#2d2727</color>
+</resources>

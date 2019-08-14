@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pager">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/atur"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/slide1"
+        android:layout_marginTop="120sp"
+        android:id="@+id/gambar1"
+        android:layout_alignTop="@+id/atur"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textFontWeight="400sp"
+        android:text="Wellcome to MyApps"
+        android:textColor="@color/colorJudul"
+        android:layout_centerInParent="true"
+        android:layout_alignTop="@+id/gambar1"
+        android:layout_marginTop="260dp"
+        android:id="@+id/judul1"/>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tesdna"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-28dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

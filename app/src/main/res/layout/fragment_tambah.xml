@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Masukkan NIM"/>
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Kelas"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Telepon"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Email"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/sosmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Sosmed"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:background="@drawable/buttonstyle"/>
+
+        <Button
+            android:id="@+id/btnTampil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Mahasiswa"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonstyle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

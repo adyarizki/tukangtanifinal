@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pager">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/atur"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/spritmin"
+        android:layout_marginTop="120sp"
+        android:layout_alignTop="@+id/atur"
+        android:id="@+id/gambar2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature?"
+        android:textSize="23dp"
+        android:textFontWeight="400sp"
+        android:textColor="@color/colorJudul"
+        android:layout_centerInParent="true"
+        android:layout_alignTop="@+id/gambar2"
+        android:layout_marginTop="260dp"
+        android:id="@+id/judu2"/>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keungulan memiliki Fitur Profil, Kontak, dan CRUD data teman"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textFontWeight="400sp"
+        android:textColor="@color/colorJudul"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/keteranga2"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tesdna"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-28dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
